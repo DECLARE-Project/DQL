@@ -1,1 +1,5 @@
 # DQL
+
+Available approaches for performance prediction are usually based on their own modeling formalism and analysis tools. Users are forced to gain detailed knowledge about these approaches before predictions can be made. To lower these efforts, intermediate modeling approaches simplify the preparation and triggering of performance predictions. However, users still have to work with different tools suffering from integration, providing non-unified interfaces and the lack of interfaces to trigger performance predictions automatically.
+
+Our approach is to provide the Descartes Query Language capable of expressing queries for questions like “What is the response time of service X?”. Previous shortcomings are addressed by an interface to integrate different tools. The interface is accessible through a unified query language to trigger performance predictions. The design of the query language is based on a classification scheme with an implementation of an extensible architecture aiming to integrate a broad range of tools and third-party extensions.
